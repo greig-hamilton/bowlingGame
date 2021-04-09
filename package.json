@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "tsc && node ./build/bowlingGame.js",
-    "test": "mocha -r ts-node/register ./**/*.spec.ts"
+    "test": "mocha -r ts-node/register ./src/**/*.spec.ts"
   },
   "author": "",
   "license": "ISC",
